@@ -1,9 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { SquareComponent } from './square/square.component';
+
+const routes: Routes = [
+  {
+    path: '',
+    component: AppComponent,
+  },
+];
 
 @NgModule({
   declarations: [
@@ -12,7 +19,7 @@ import { SquareComponent } from './square/square.component';
   ],
   imports: [
     BrowserModule,
-    RouterModule
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
