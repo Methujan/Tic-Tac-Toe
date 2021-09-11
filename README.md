@@ -1,5 +1,5 @@
 # TicTacToe
-
+This is a simple TicTacToe game made with Angular and Typescript. 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
 ## Development server
