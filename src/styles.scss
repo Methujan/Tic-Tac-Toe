@@ -16,10 +16,3 @@
 @include nb-install() {
   @include nb-theme-global();
 }
-
-.nb-theme-cosmic [nbButton].appearance-filled.status-basic,
-.nb-theme-cosmic .appearance-filled.status-basic[nbButtonToggle] {
-  background-color: #f0f0fa;
-  border-color: #f0f0fa;
-  color: #323259;
-}
