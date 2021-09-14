@@ -45,7 +45,7 @@ export class BoardComponent implements OnInit {
       [0, 4, 8],
       [2, 4, 6]
     ];
-    for (let i = 0; i < lines.length; i++) {
+    for (let i = 0; i < lines.length; i++) { //Check if any of the winning outcomes occur
       const [a, b, c] = lines[i];
       if (
         this.squares[a] &&
